@@ -13,10 +13,35 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
-Route::get('/home', function () {
-    return view('home');
+Route::get('/posyandu', function () {
+    return view('posyandu');
+});
+
+Route::get('/kecamatan', function () {
+    return view('kecamatan');
+});
+
+Route::get('/kelurahan', function () {
+    return view('kelurahan');
+});
+
+Route::get('/role', function () {
+    return view('role');
+});
+
+Route::get('/login', function () {
+    return view('login');
+});
+
+Route::get('/forgotpassword', function () {
+    return view('forgotpassword');
+});
+
+Route::get('/register', function () {
+    return view('register');
 });
