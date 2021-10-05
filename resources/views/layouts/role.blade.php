@@ -1,5 +1,5 @@
-@extends('layouts/main')
+@extends('home')
 
 @section('Container')
-    <h1>Role</h1>
+<p><font size="24" color="#000000">Role</font></p>
 @endsection
