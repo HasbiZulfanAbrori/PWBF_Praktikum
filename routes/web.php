@@ -15,33 +15,33 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-    return view('template');
+    return view('layouts/template');
 });
 
 Route::get('/posyandu', function () {
-    return view('layouts/posyandu');
+    return view('posyandu');
 });
 
 Route::get('/kecamatan', function () {
-    return view('layouts/kecamatan');
+    return view('kecamatan');
 });
 
 Route::get('/kelurahan', function () {
-    return view('layouts/kelurahan');
+    return view('kelurahan');
 });
 
 Route::get('/role', function () {
-    return view('layouts/role');
+    return view('role');
 });
 
 Route::get('/login', function () {
-    return view('layouts/login');
+    return view('login');
 });
 
 Route::get('/forgotpassword', function () {
-    return view('layouts/forgotpassword');
+    return view('forgotpassword');
 });
 
 Route::get('/register', function () {
-    return view('layouts/register');
+    return view('register');
 });
