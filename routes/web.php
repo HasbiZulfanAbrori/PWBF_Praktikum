@@ -19,30 +19,30 @@ Route::get('/', function () {
 });
 
 Route::get('/posyandu', function () {
-    return view('layouts.posyandu');
+    return view('layouts/posyandu');
 });
 
 Route::get('/kecamatan', function () {
-    return view('layouts.kecamatan');
+    return view('layouts/kecamatan');
 });
 
 Route::get('/kelurahan', function () {
-    return view('layouts.kelurahan');
+    return view('layouts/kelurahan');
 });
 
 Route::get('/role', function () {
-    return view('layouts.role');
+    return view('layouts/role');
 });
 
 Route::get('/login', function () {
-    return view('layouts.login');
+    return view('layouts/login');
 });
 
 Route::get('/forgotpassword', function () {
-    return view('layouts.forgotpassword');
+    return view('layouts/forgotpassword');
 });
 
 Route::get('/register', function () {
-    return view('layouts.register');
+    return view('layouts/register');
 });
 
