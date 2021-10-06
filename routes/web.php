@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-    return view('template');
+    return view('layouts/login');
 });
 
 Route::get('/posyandu', function () {
@@ -34,8 +34,8 @@ Route::get('/role', function () {
     return view('layouts/role');
 });
 
-Route::get('/login', function () {
-    return view('layouts/login');
+Route::get('/home', function () {
+    return view('template');
 });
 
 Route::get('/forgotpassword', function () {
